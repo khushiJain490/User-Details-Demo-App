@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/list_item"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:background="#A30202"
+    android:outlineAmbientShadowColor="@color/black"
+       android:outlineSpotShadowColor="@color/black">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:cardElevation="200dp"
+        app:cardCornerRadius="20dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="8dp"
+        android:outlineAmbientShadowColor="@color/black"
+        android:outlineSpotShadowColor="@color/black"
+        app:cardBackgroundColor="@color/black">
+
+
+     <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+         android:paddingLeft="8dp"
+         android:paddingTop="8dp"
+
+         android:paddingBottom="8dp"
+         android:paddingRight="8dp">
+
+
+    <LinearLayout
+        android:layout_width="117dp"
+        android:layout_height="match_parent"
+
+        android:orientation="vertical">
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/userimage"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:layout_gravity="center"
+            android:src="@mipmap/ic_launcher"
+            app:shapeAppearanceOverlay="@style/circular" />
+
+        <TextView
+            android:id="@+id/userbs"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp"
+            android:gravity="center"
+            android:textColor="@color/whiteTextColor"
+            android:hint="bs"
+            android:textSize="10dp" />
+
+        <TextView
+            android:id="@+id/usercname"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textColor="@color/whiteTextColor"
+            android:hint="company name" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="8dp">
+
+            <com.google.android.material.imageview.ShapeableImageView
+                android:layout_width="26dp"
+                android:layout_height="26dp"
+                android:src="@mipmap/website_logo"
+                android:scaleType="centerInside"
+                android:background="@color/black"
+                app:shapeAppearanceOverlay="@style/circular"
+                android:adjustViewBounds="true"
+                android:paddingLeft="8dp"/>
+
+            <TextView
+                android:id="@+id/userwebsite"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:hint="website"
+                android:layout_gravity="center_vertical"
+                android:textSize="13dp"
+                android:paddingTop="2.5dp"
+                android:textColor="#2196F3"
+                android:paddingLeft="8dp"/>
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:layout_marginLeft="16dp">
+
+            <TextView
+                android:id="@+id/name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:hint="name"
+                android:paddingLeft="8dp"
+                android:textAllCaps="true"
+                android:textStyle="bold"
+                android:textColor="@color/whiteTextColor"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/catchphrase"
+                android:inputType="text|textMultiLine|textCapSentences"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="catch phrase"
+                android:textStyle="italic"
+                android:paddingLeft="8dp"
+                android:textSize="15dp"
+                android:gravity="center"
+                android:maxLines="2"
+                android:textColor="@color/whiteTextColor"
+                android:layout_marginTop="8dp"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:background="@color/black"
+                android:paddingLeft="8dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:background="@color/black"
+                    android:textColor="@color/whiteTextColor"
+                    android:src="@drawable/ic_baseline_phone_24" />
+
+                <TextView
+                    android:id="@+id/userphone"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="7983981872"
+                    android:paddingLeft="8dp"
+                    android:textColor="@color/whiteTextColor"
+                    android:maxLines="1"/>
+
+
+            </LinearLayout>
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="8dp">
+
+                <ImageView
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:src="@mipmap/gmail_logo"
+                    android:scaleType="centerInside"
+                    android:adjustViewBounds="true"
+                    android:background="@color/black"
+                    android:paddingLeft="8dp"/>
+
+                <TextView
+                    android:id="@+id/useremail"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Email"
+                    android:textColor="@color/whiteTextColor"
+                    android:paddingLeft="8dp"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="8dp">
+
+                <ImageView
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:src="@drawable/location_logo"
+                    android:background="@color/black"
+                    android:paddingLeft="8dp"/>
+
+                <TextView
+                    android:id="@+id/useraddress"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="address"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:background="@drawable/ripple_effect"
+                    android:textColor="@color/whiteTextColor"
+                    android:paddingLeft="8dp"/>
+
+            </LinearLayout>
+
+
+
+
+        </LinearLayout>
+     </LinearLayout>
+
+
+    </androidx.cardview.widget.CardView>
+
+     </LinearLayout>
+
+
