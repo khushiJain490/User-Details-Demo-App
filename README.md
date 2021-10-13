@@ -1,21 +1,5 @@
 # User-Details-Demo-App
 
-This is a demo app which displays the list of users on login. The components and tool used in this application are
- UI/UX designing
- CardView
- Recycler view
- Fragments
---> Activity
---> AlertDialog box builder
---> Patterns for validadtion of phone and email
---> Adapter
---> Retrofit
---> Glide library
---> Intents
---> Google Maps API
-
-
-App Screenshots and a short Demo Video are also provided below.
 
 ![WhatsApp Image 2021-10-13 at 1 04 29 PM](https://user-images.githubusercontent.com/73495814/137088933-d6bb24cc-cedf-4746-ae9c-cc2c021a442e.jpeg)
 ![WhatsApp Image 2021-10-13 at 1 04 29 PM (1)](https://user-images.githubusercontent.com/73495814/137093408-e2dc156e-3b0a-4b50-b7db-f7d99f1609c7.jpeg)
