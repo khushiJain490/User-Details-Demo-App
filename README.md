@@ -1,4 +1,8 @@
-# User-Details-Demo-App
+# User-Details-Demo-App   
+
+
+   ![app_logo_1](https://user-images.githubusercontent.com/73495814/137109902-50594c67-d84c-4ada-b2bc-523de1f313ba.png)
+
 
 This is a demo app which displays the list of users on login. The components and tool used in this application are
 **UI/UX designing
